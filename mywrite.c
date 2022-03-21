@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
     void *shmptr = NULL; //define the ptr of shared memory
     struct shared_struct *shared = NULL; //define the shared memory 
     int shmid; //define the id of shared memory
-    key_t key; //define the IPC key of the shared memory
+    key_t key; //define the IPC ke y of the shared memory
 
     sscanf(argv[1], "%x", &key); //create IPC key ()
     printf("shmwrite: IPC key = 0x%x\n",key); //print the IPC key to check if it is the same

@@ -10,7 +10,7 @@
 #include "FIFOqueuestruct.h"
 
 int main(int argc, char *argv[]){
-    struct stat fileattr;//file infomation struct
+    struct stat fileattr;//file inf omation struct
     key_t key;
     int shmid; //shared memory ID
     void *shmptr; //shared memory real address

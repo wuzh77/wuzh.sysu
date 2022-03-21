@@ -8,7 +8,7 @@
 
 int main(int argc, char *argv[])
 {
-    void *shmptr = NULL; //define the shared memory ptr
+    void *shmptr = NULL; //define the  shared memory ptr
     struct shared_struct *shared;
     int shmid; //define the id of shared memory 
     key_t key;

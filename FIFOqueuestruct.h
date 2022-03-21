@@ -1,4 +1,4 @@
-#define TEXT_SIZE 20 /* = PAGE_SIZE, size of each message */
+#define TEXT_SIZE 20 /* = PAGE_SIZE, size of each message  */
 #define QUEUE_SIZE 1 //the numbers of struct
 #define QUEUE_LEN 20 // the length of FIFOqueue in one shared memory 
 struct student_massage {
