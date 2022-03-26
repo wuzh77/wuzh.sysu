@@ -1,7 +1,7 @@
 import math
 import random
 import copy
-import numpy as np
+import numpy as np #sss
 
 
 class point:
